@@ -5,7 +5,7 @@ package dat102.f02.tabellbag;
  * 
  * @author Lars-Petter Helland
  */
-public class TabellBag<T> implements BagADT{
+public class TabellBag<T> implements BagADT<T>{
 
 	private static final int DEFAULT_KAPASITET = 10;
 
@@ -20,7 +20,7 @@ public class TabellBag<T> implements BagADT{
 
 	@SuppressWarnings("unchecked")
 	public TabellBag(int kapasitet) {
-		tabell = (T[]) new TabellBag[kapasitet];
+		tabell = (T[]) new Object[kapasitet];
 		antall = 0;
 	}
 
