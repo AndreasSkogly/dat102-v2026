@@ -11,4 +11,8 @@ class TabellBagTest {
         fail("Not yet implemented");
 	}
 
+	BagADT<String> pose = new TabellBag<>(3);
+
+	pose.isEmpty();
+
 }
