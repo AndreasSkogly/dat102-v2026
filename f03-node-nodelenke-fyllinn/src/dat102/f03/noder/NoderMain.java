@@ -1,5 +1,7 @@
 package dat102.f03.noder;
 
+
+
 public class NoderMain {
 	
 	public static void main(String[] args) {
@@ -15,9 +17,16 @@ public class NoderMain {
 		
 		//1a) Vi begynner med å lage og sette inn det som blir siste node, [Espen|..]
 		// TODO
+
+		Node<String> forste = new Node<>("Espen");
+		skrivUtListe(forste);
 		
 		//1b) Deretter lage nest siste node [Pål|..], og la den peke på [Espen|..]
 		// TODO
+
+		temp = new Node<>("Pål");
+		temp.neste = forste;
+		forste = temp;
 		
 		//1c) Deretter lage forste node [Per|..], og la den peke på [Pål|..]
 		// TODO
