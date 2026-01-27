@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/f02-comparable-tabellbag-losning/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/f03-node-nodelenke-fyllinn/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/f03-node-nodelenke-resultat/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/f04-lenketbag-analyse-fyllinn/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

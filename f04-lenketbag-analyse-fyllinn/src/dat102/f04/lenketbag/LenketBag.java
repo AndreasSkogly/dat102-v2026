@@ -30,6 +30,14 @@ public class LenketBag<T> implements BagADT<T> {
 		forste = null;
 		antall = 0;
 	}
+
+	private Node finnNode(T entry) {
+		while (p != null) {
+			if (p.data.equals)
+
+		}
+		return null;
+	}
 	
 	/************************************************************/
 
@@ -46,14 +54,25 @@ public class LenketBag<T> implements BagADT<T> {
 	@Override
 	public boolean add(T newEntry) {
 		//TODO - Legger inn først i listen siden det er enklest
-		return false;
+		Node ny = new Node(newEntry);
+		ny.neste = forste;
+		forste = ny;
+		antall++;
+		return true;
 	}
 
 	@Override
 	public T remove() {
 		//TODO - Vi må først sjekke om tom siden det da ikke er noe å fjerne
 		//TODO - Fjerner den første siden det er enklest
-		return null;
+		if (antall == 0) {
+			return null;
+		}
+		Node temp = forste;
+		forste = forste.neste;
+		antall--;
+		return temp.data;
+
 	}
 
 	@Override

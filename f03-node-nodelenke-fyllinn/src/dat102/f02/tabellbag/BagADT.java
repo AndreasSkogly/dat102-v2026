@@ -1,5 +1,7 @@
 package dat102.f02.tabellbag;
 
+import dat102.f03.noder.Node;
+
 /**
  * An interface that describes the operations of a bag of objects.
  * 
@@ -10,7 +12,7 @@ package dat102.f02.tabellbag;
  *          Endret litt av Lars-Petter Helland ...
  */
 public interface BagADT<T> {
-	
+
 	/**
 	 * Gets the current number of entries in this bag.
 	 * 
