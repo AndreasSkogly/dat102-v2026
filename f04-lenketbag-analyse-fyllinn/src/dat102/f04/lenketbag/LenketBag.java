@@ -31,13 +31,13 @@ public class LenketBag<T> implements BagADT<T> {
 		antall = 0;
 	}
 
-	private Node finnNode(T entry) {
+/*	private Node finnNode(T entry) {
 		while (p != null) {
-			if (p.data.equals)
+			if (p.data.equals);
 
 		}
 		return null;
-	}
+	}*/
 	
 	/************************************************************/
 

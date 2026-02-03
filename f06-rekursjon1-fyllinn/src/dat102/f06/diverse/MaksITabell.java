@@ -20,7 +20,10 @@ public class MaksITabell {
 			return t[start];
 		} else {
 			int midten = (start + slutt) / 2;
-			int maksV =
+			int maksV = maksTab (t, start, midten);
+			int maksH = maksTab (t, midten+1, slutt);
+
+			return Math.max(maksV, maksH);
 		}
 
 	}
