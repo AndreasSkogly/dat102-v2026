@@ -87,8 +87,18 @@ public class LenketBagRekursiv<T> implements BagADT<T> {
 	 * Utskrift.
 	 * Ikke en del av BagADT-kontrakten.
 	 */
-	public void skrivUt() {
+	public void skrivUt(){
+		skrivUt(forste);
+	}
+
+	public void skrivUt(Node temp) {
 		//TODO Gjøre denne :)
+		if(temp == null){
+		} else {
+			System.out.println(temp.data);
+			skrivUt(temp.neste);
+		}
+
 	}
 
 
